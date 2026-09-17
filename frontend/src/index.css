@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark-950 text-slate-100 font-sans antialiased selection:bg-btc-primary selection:text-white min-h-screen overflow-x-hidden;
+  }
+
+  /* Custom scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0C1220;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1F2E4D;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2A3C63;
+  }
+}
+
+/* Glassmorphic and mission control card styles */
+.intel-card {
+  @apply bg-dark-900/90 border border-dark-700/60 rounded-xl shadow-card backdrop-blur-md transition-all duration-200 hover:border-dark-600/80;
+}
+
+.intel-card-header {
+  @apply px-5 py-4 border-b border-dark-700/50 flex items-center justify-between;
+}
+
+.intel-badge {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium tracking-wide;
+}

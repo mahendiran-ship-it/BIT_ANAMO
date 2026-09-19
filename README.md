@@ -355,3 +355,17 @@ The audit found the following items that should be addressed before calling the 
 - Provider transaction page failures now fail ingestion rather than silently producing incomplete analysis; retry and recovery policy can still be improved for long outages.
 
 These limitations are intentional disclosures for evaluation. The implemented ingestion, storage, deterministic analysis, address monitoring, API, SSE, and dashboard paths are the working core of BIT_ANAMO.
+
+
+
+
+
+
+
+## Developers
+ - S Mahendiran 
+ - R Gowtham
+ - Ashwini 
+ - Bagavathi
+ - Yokesh
+ - Roobeshwaran

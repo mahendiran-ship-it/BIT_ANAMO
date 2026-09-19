@@ -295,6 +295,7 @@ flowchart TD
 ### Backend
 
 ```powershell
+git clone https://github.com/mahendiran-ship-it/BIT_ANAMO.git
 cd backend
 python -m pip install -r requirements.txt
 python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
@@ -305,6 +306,7 @@ The backend initializes `backend/bitcoin_intel.db`, seeds recent blocks, then st
 ### Frontend
 
 ```powershell
+Open a new terminal while backend is running successfully 
 cd frontend
 npm install
 npm run dev
